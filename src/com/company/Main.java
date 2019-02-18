@@ -30,7 +30,8 @@ public class Main {
             else {
                 System.out.println("\nOK, enjoy the gym!");
             }
-        } else if (infoCheck.equals("y") && userAge < 26) {
+        } 
+        else if (infoCheck.equals("y") && userAge < 26) {
             System.out.println("\nGreat! Are you interested in joining our Young Adult Exercise Club? (enter y/n): ");
             String youngClubInterest = scanner.next();
             if (youngClubInterest.equals("y")) {
@@ -39,7 +40,8 @@ public class Main {
             else {
                 System.out.println("\nOK, enjoy the gym!");
             }
-        } else {
+        } 
+        else {
             System.out.println("\nI'm sorry, please see the receptionist!");
         }
     }
